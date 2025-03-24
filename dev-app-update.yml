@@ -1,3 +1,4 @@
-provider: generic
+provider: github
+owner: cwilliamson29
 url: https://github.com/cwilliamson29/Electron-Updater-Test
 updaterCacheDirName: electron-updater-test-updater
