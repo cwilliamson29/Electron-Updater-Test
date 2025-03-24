@@ -66,7 +66,7 @@ app.whenReady().then(() => {
 // for applications and their menu bar to stay active until the user quits
 // explicitly with Cmd + Q.
 app.on('ready', () => {
-    autoUpdater.checkForUpdates()
+    autoUpdater.checkForUpdatesAndNotify()
 })
 
 app.on('window-all-closed', () => {
