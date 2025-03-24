@@ -12,7 +12,8 @@ files:
 asarUnpack:
   - resources/**
 win:
-  executableName: electron-updater-test
+    target: ["portable"]
+    executableName: electron-updater-test
 nsis:
   artifactName: ${name}-${version}-setup.${ext}
   shortcutName: ${productName}
