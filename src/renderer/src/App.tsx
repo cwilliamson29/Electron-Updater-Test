@@ -12,15 +12,6 @@ function App(): JSX.Element {
             <div>
                 <h1>Version: {version}</h1>
             </div>
-            <div>
-                <h1>Version: {version}</h1>
-            </div>
-            <div>
-                <h1>Version: {version}</h1>
-            </div>
-            <div>
-                <h1>Version: {version}</h1>
-            </div>
             <p className="tip">
                 Please try pressing <code>F12</code> to open the devTool
             </p>
