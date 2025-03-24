@@ -41,4 +41,4 @@ npmRebuild: false
 publish:
     provider: github
     owner: cwilliamson29
-    url: https://github.com/cwilliamson29/Electron-Updater-Test
+    repo: Electron-Updater-Test
