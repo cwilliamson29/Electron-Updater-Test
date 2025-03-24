@@ -9,7 +9,9 @@ function App(): JSX.Element {
         <>
             <img alt="logo" className="logo" src={electronLogo} />
             <div className="creator">Powered by electron-vite</div>
-            <div>Version: {version}</div>
+            <div>
+                <h1>Version: {version}</h1>
+            </div>
             <p className="tip">
                 Please try pressing <code>F12</code> to open the devTool
             </p>
